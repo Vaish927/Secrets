@@ -1,7 +1,6 @@
 {
   "name": "secrets---starting-code",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
@@ -16,5 +16,14 @@
     "md5": "^2.3.0",
     "mongoose": "^6.3.3",
     "mongoose-encryption": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaish927/Secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vaish927/Secrets/issues"
+  },
+  "homepage": "https://github.com/Vaish927/Secrets#readme",
+  "description": ""
 }
